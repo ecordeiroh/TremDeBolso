@@ -13,8 +13,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
-    // aqui é onde fica os imagem button
-    ImageButton bt, bt1, bt2, bt3;
+
+    ImageButton bt, bt1, bt2, bt3, bt4;
     Intent i;
 
     @Override
