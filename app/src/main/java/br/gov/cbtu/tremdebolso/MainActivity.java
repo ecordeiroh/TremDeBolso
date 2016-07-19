@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageButton bt, bt1, bt2, bt3, bt4;
+    ImageButton bt, bt1, bt2, bt3, bt5;
     Intent i;
 
     @Override
