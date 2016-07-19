@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colo_withe"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.gov.cbtu.tremdebolso.MainEstacoes"
+    tools:showIn="@layout/activity_main_estacoes">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+            <TextView
+                android:id="@+id/text_descricao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/text_estcoes_descricao"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="@dimen/dimen_text_fale_grande"
+                android:textColor="@color/color_cinza_text"
+                />
+
+        <LinearLayout
+            android:layout_below="@+id/text_descricao"
+            android:background="@color/colo_withe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_linhasul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_linhasul"
+                android:textColor="@color/color_cinza_text"
+                android:textSize="@dimen/dimen_text_fale_grande"
+                />
+
+            <Button
+                android:id="@+id/btn_natal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/text_e_natal"
+                android:layout_marginTop="5dp"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_alecrim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_alecrim2"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_padrej"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_pdj"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_bomp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_bomp"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_cidadee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_cidadee"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_promorar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_promorar"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_pitimbu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_pitimbu"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_satelite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_satelite"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_jardima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_JA"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_parnamirim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_PARNA"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+
+
+            <!-- Linha Norte -->
+
+            <TextView
+                android:id="@+id/text_linhanorte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_linhanorte"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/color_cinza_text"
+                android:textSize="@dimen/dimen_text_fale_grande"
+                />
+
+            <Button
+                android:id="@+id/btn_natalnorte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/text_e_natal"
+                android:layout_marginTop="5dp"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_alecrim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_alecrim1"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_quintas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_QUINTAS"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_igapo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_IGAPO"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_santac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_SANTAC"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_soledade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_SOLEDADE"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_novanatal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_NOVAN"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_nordelandia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_NORDELANDIA"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_estreladomar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_ESTRELAMAR"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_extremoz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_EXTREMOZ"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_massangana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_MASSANGANA"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_lagoagrande"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_LAGOAG"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+            <Button
+                android:id="@+id/btn_cearamirim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_cinza"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_marginTop="5dp"
+                android:text="@string/text_e_CEARAM"
+
+                android:textSize="@dimen/dimen_text_btns"
+                android:textColor="@color/color_cinza_text"
+                android:textAlignment="textStart"
+                android:paddingLeft="10dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

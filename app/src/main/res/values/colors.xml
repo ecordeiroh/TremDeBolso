@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_azul">#0081C3</color>
+    <color name="color_cinza">#F1F1F1</color>
+    <color name="color_verde">#009841</color>
+    <color name="color_cinza_text">#4D4D4D</color>
+    <color name="color_proxima_viagem">#007231</color>
+
+    <color name="color_tranparente">#00000000</color>
+    <color name="colo_withe">#FFFFFF</color>
+
+</resources>

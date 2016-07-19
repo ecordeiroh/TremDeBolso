@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.gov.cbtu.tremdebolso">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainFaleConosco"
+            android:label="@string/text_fale"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainEstacoesMapa"
+            android:label="@string/title_activity_main_estacoes_mapa"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainEstacoes"
+            android:label="@string/title_activity_main_estacoes"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainActivity" />
+        </activity>
+
+        <!-- Horários -->
+
+        <activity
+            android:name=".horarios_sul.Natal"
+            android:label="@string/text_e_natal"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.Alecrim2"
+            android:label="@string/text_e_alecrim2"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.PadreJoaoMaria"
+            android:label="@string/text_e_pdj"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.BomPastor"
+            android:label="@string/text_e_bomp"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.CidadeEsperanca"
+            android:label="@string/text_e_cidadee"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.Promorar"
+            android:label="@string/text_e_promorar"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.Pitimbu"
+            android:label="@string/text_e_pitimbu"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.Satelite"
+            android:label="@string/text_e_satelite"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.JardimAeroporto"
+            android:label="@string/text_e_JA"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_sul.Parnamirim"
+            android:label="@string/text_e_PARNA"
+            android:parentActivityName=".MainEstacoes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+        <activity
+            android:name=".horarios_norte.Natal_Norte"
+            android:label="@string/title_activity_natal__norte"
+            android:parentActivityName=".MainEstacoes"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.gov.cbtu.tremdebolso.MainEstacoes" />
+        </activity>
+    </application>
+
+</manifest>

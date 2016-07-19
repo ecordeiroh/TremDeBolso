@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colo_withe"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.gov.cbtu.tremdebolso.MainFaleConosco"
+    tools:showIn="@layout/activity_main_fale_conosco">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/icon_falecinza"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:id="@+id/ly_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="15dp"
+                android:paddingTop="4dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="4dp"
+                >
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@mipmap/ic_face"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_alignTop="@+id/ly_face"
+                 android:layout_toRightOf="@+id/ly_face"
+                 android:layout_toEndOf="@+id/ly_face"
+                 android:layout_alignBottom="@+id/ly_face">
+                 <TextView
+                     android:id="@+id/text_face1"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="@string/text_face"
+                     android:textColorLink="@color/color_cinza_text"
+                     android:textSize="@dimen/text_face"
+                     android:paddingTop="8dp"
+                     android:textColor="@color/color_cinza_text"
+                     android:layout_centerVertical="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_alignParentStart="true"
+                     android:layout_marginLeft="3dp" />
+             </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:paddingLeft="8dp"
+
+                android:layout_alignTop="@+id/ly_face"
+                android:layout_alignBottom="@+id/ly_face"
+                android:layout_alignParentRight="true"
+                android:id="@+id/linearLayout4" />
+
+            <LinearLayout
+                android:id="@+id/ly_site"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:layout_below="@+id/ly_face"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:paddingTop="4dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="4dp"
+                >
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@mipmap/ic_site"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:paddingLeft="8dp"
+
+                android:layout_alignTop="@+id/ly_site"
+                android:layout_alignBottom="@+id/ly_site"
+                android:layout_alignParentRight="true"
+                android:id="@+id/linearLayout2"
+                android:orientation="horizontal" />
+
+
+            <LinearLayout
+                android:id="@+id/ly_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:layout_below="@+id/ly_site"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:paddingTop="4dp"
+                android:paddingRight="7dp"
+                android:paddingBottom="4dp"
+                >
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@mipmap/ic_mail"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:paddingLeft="8dp"
+
+                android:layout_alignTop="@+id/ly_mail"
+                android:layout_alignBottom="@+id/ly_mail"
+                android:layout_alignParentRight="true"
+                android:id="@+id/linearLayout3" />
+
+
+            <LinearLayout
+                android:id="@+id/ly_telefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:layout_below="@+id/ly_mail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:paddingRight="1.5dp"
+                >
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/ic_fone"
+                    android:layout_marginLeft="4dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color_verde"
+                android:paddingLeft="8dp"
+
+                android:layout_alignTop="@+id/ly_telefone"
+                android:layout_alignBottom="@+id/ly_telefone"
+                android:layout_alignParentRight="true"
+                />
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:background="@color/color_cinza"
+            android:layout_below="@+id/ly_telefone"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/frameLayout">
+
+            <ImageView
+                android:layout_width="115dp"
+                android:layout_height="98dp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo_home"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="match_parent"
+            android:text="@string/text_site"
+            android:textSize="@dimen/dimen_text_fale"
+            android:padding="5dp"
+            android:autoLink="web"
+            android:textColorLink="@color/color_cinza_text"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/ly_site"
+            android:layout_toRightOf="@+id/ly_site"
+            android:layout_toEndOf="@+id/ly_site" />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="match_parent"
+            android:text="@string/text_email"
+            android:autoLink="email"
+            android:padding="5sp"
+            android:textColorLink="@color/color_cinza_text"
+            android:textSize="@dimen/dimen_text_fale"
+
+            android:id="@+id/textView2"
+            android:layout_alignTop="@+id/ly_mail"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_alignBottom="@+id/linearLayout3" />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="match_parent"
+            android:text="@string/text_telefone"
+            android:autoLink="phone"
+            android:padding="5sp"
+            android:textColorLink="@color/color_cinza_text"
+            android:textSize="@dimen/dimen_text_fale"
+
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/ly_telefone"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_above="@+id/frameLayout" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

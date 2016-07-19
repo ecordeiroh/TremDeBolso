@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Trem de Bolso</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">CBTU NATAL</string>
+
+    <string name="text_horarios">Viagens do dia</string>
+    <string name="text_grade">Grade\nCompleta</string>
+    <string name="text_mapa">Mapa do \nSistema</string>
+    <string name="text_fale">Fale Conosco</string>
+    <string name="title_activity_main_fale_conosco">MainFaleConosco</string>
+
+    <string name="text_face"><a href="https://www.facebook.com/companhiabrasileiradetrensurbanos">/companhiabrasileiradetrensurbanos</a></string>
+    <string name="text_site">http://www.cbtu.gov.br</string>
+    <string name="text_email">stunat@cbtu.gov.br</string>
+    <string name="text_telefone">(84) 3221-3355</string>
+
+    <string name="title_activity_main_estacoes_mapa">Mapa Do Sistema</string>
+
+    <string name="google_maps_api_key">AIzaSyCnYJS7MaGu1bQOaXJ02CeARn4IlCgW9ro</string>
+    <string name="title_activity_main_estacoes">Estações</string>
+
+    <string name="text_estcoes_descricao">Escolha uma estação \npara ver os horários \n dos trens.</string>
+
+    <string name="text_proxima">Próxima Viagem</string>
+
+    <!-- Estações -->
+    <!-- Sentido SUL -->
+
+    <string name="text_linhasul">Linha Sul</string>
+    <string name="text_e_natal">NATAL</string>
+    <string name="text_e_alecrim2">ALECRIM II</string>
+    <string name="text_e_pdj">PADRE JOÃO MARIA</string>
+    <string name="text_e_bomp">BOM PASTOR</string>
+    <string name="text_e_cidadee">CIDADE ESPERANÇA</string>
+    <string name="text_e_promorar">PRÓMORAR</string>
+    <string name="text_e_pitimbu">PITIMBU</string>
+    <string name="text_e_satelite">SATÉLITE</string>
+    <string name="text_e_JA">JARDIM AEROPORTO</string>
+    <string name="text_e_PARNA">PARNAMIRIM</string>
+
+    <!-- Sentido NORTE -->
+    <string name="text_linhanorte">Linha Norte</string>
+    <string name="text_e_alecrim1">ALECRIM I</string>
+    <string name="text_e_QUINTAS">QUINTAS</string>
+    <string name="text_e_IGAPO">IGAPÓ</string>
+    <string name="text_e_SANTAC">SANTA CATARINA</string>
+    <string name="text_e_SOLEDADE">SOLEDADE</string>
+    <string name="text_e_NOVAN">NOVA NATAL</string>
+    <string name="text_e_NORDELANDIA">NORDELÂNDIA</string>
+    <string name="text_e_ESTRELAMAR">ESTRELA DO MAR</string>
+    <string name="text_e_EXTREMOZ">EXTREMOZ</string>
+    <string name="text_e_MASSANGANA">MASSANGANA</string>
+    <string name="text_e_LAGOAG">LAGOA GRANDE</string>
+    <string name="text_e_CEARAM">CEARÁ-MIRIM</string>
+
+    <string name="text_sentido_natal">SENTIDO NATAL</string>
+    <string name="text_sentido_parna">SENTIDO PARNAMIRIM</string>
+    <string name="text_sentido_cearámirim">SENTIDO CEARÁ-MIRIM</string>
+
+
+    <string name="title_activity_main_horario_natal">MainHorarioNatal</string>
+    <string name="title_activity_horario__natal">Horario_Natal</string>
+    <string name="title_activity_horario__alecrim2">Horario_Alecrim2</string>
+    <string name="title_activity_horario__pjoao">Horario_PJoao</string>
+    <string name="title_activity_horario__bom_p">Horario_BomP</string>
+    <string name="title_activity_horario__cidade_e">Horario_CidadeE</string>
+    <string name="title_activity_horario__promorar">Horario_Promorar</string>
+    <string name="title_activity_horario__pitimbu">Horario_Pitimbu</string>
+    <string name="title_activity_horario__satelite">Horario_Satelite</string>
+    <string name="title_activity_horario__jd_aeroporto">Horario_JdAeroporto</string>
+    <string name="title_activity_horario__parnamirim">Horario_Parnamirim</string>
+    <string name="title_activity_natal__norte">Natal_Norte</string>
+
+
+</resources>
