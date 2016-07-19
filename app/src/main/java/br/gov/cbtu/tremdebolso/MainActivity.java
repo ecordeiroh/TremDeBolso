@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 public class MainActivity extends AppCompatActivity {
-
+    //olaola
     ImageButton bt, bt1, bt2, bt3;
     Intent i;
 
